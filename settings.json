@@ -1,0 +1,36 @@
+{
+    "workbench.editor.empty.hint": "hidden",
+    "editor.minimap.enabled": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.fontFamily": "Consolas, Cascadia Code ExtraLight, monospace",
+    "window.zoomLevel": -1,
+    "workbench.iconTheme": "material-icon-theme",
+    "extensions.ignoreRecommendations": true,
+    "git.autofetch": true,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "none",
+    "breadcrumbs.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // NAVIGATION
+        // switch b/w buffers
+        {
+            "before": [
+                "<S-h>"
+            ],
+            "commands": [
+                ":bprevious"
+            ]
+        },
+        {
+            "before": [
+                "<S-l>"
+            ],
+            "commands": [
+                ":bnext"
+            ]
+        },
+    ],
+}
