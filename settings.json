@@ -18,4 +18,6 @@
         // switch b/w buffers
     ],
     "editor.lineNumbers": "relative",
+    "redhat.telemetry.enabled": false,
+    "editor.inlineSuggest.suppressSuggestions": true,
 }

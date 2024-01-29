@@ -22,11 +22,11 @@
         },
         {
             "command": "workbench.action.toggleSidebarVisibility",
-            "key": "ctrl+n"
+            "key": "shift+n"
         },
         {
             "command": "workbench.files.action.focusFilesExplorer",
-            "key": "ctrl+n",
+            "key": "shift+n",
             "when": "editorTextFocus"
         },
         {
