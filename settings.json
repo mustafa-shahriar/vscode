@@ -1,23 +1,88 @@
 {
-    "workbench.editor.empty.hint": "hidden",
+    "editor.wordWrap": "on",
+    "window.titleBarStyle": "custom",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.stickyScroll.enabled": false,
+    "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "bottom",
+    "window.customTitleBarVisibility": "auto",
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "hidden",
+    "window.enableMenuBarMnemonics": false,
+    "window.title": "",
+    "editor.lineNumbers": "relative",
+    "vim.leader": "<space>",
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+          "before": ["<C-l>"],
+          "after": ["<Right>"]
+        },
+        {
+          "before": ["<C-h>"],
+          "after": ["<Left>"]
+        }
+      ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before" : [">"],
+            "commands" : [":bn"],
+            "silent" : true,
+        },
+        {
+            "before" : ["<"],
+            "commands" : [":bp"],
+            "silent" : true,
+        },
+        {
+            "before" : ["<C-p>"],
+            "commands" : ["workbench.action.quickOpen"],
+            "silent" : true,
+        },
+        {
+            "before" : ["<C-n>"],
+            "commands" : ["workbench.files.action.focusFilesExplorer"],
+            "silent" : true,
+        },
+        {
+            "before" : ["<C-j>"],
+            "after" : ["<C-d>"],
+            "silent" : true,
+        },
+        {
+            "before" : ["<C-k>"],
+            "after" : ["<C-u>"],
+            "silent" : true,
+        },
+        {
+            "before" : ["<leader>", "w"],
+            "commands" : [":w"],
+            "silent" : true,
+        },
+        {
+            "before" : ["<leader>", "q"],
+            "commands" : [":bd"],
+            "silent" : true,
+        },
+        {
+            "before" : ["<C-l>"],
+            "after" : ["<C-w>","l"],
+            "silent" : true,
+        },
+        {
+            "before" : ["<C-h>"],
+            "after" : ["<C-w>","h"],
+            "silent" : true,
+        },
+        {
+            "before" : ["<leader>","v"],
+            "commands" : [":vsplit"],
+            "silent" : true,
+        },
+    ],
+    "workbench.startupEditor": "none",
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
-    "editor.fontFamily": "Consolas, Cascadia Code ExtraLight, monospace",
-    "window.zoomLevel": -1,
-    "workbench.iconTheme": "material-icon-theme",
-    "extensions.ignoreRecommendations": true,
-    "git.autofetch": true,
-    "editor.formatOnSave": true,
-    "editor.renderWhitespace": "none",
-    "breadcrumbs.enabled": false,
-    "window.menuBarVisibility": "compact",
-    "vim.normalModeKeyBindingsNonRecursive": [
-        // NAVIGATION
-        // switch b/w buffers
-    ],
-    "editor.lineNumbers": "relative",
-    "redhat.telemetry.enabled": false,
-    "editor.inlineSuggest.suppressSuggestions": true,
 }
