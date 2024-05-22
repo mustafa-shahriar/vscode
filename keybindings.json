@@ -1,91 +1,19 @@
-    // Place your key bindings in this file to override the defaultsauto[]
-    [
-        {
-            "key": "shift+,",
-            "command": "workbench.action.previousEditor",
-            "when": "editorFocus"
-        },
-        {
-            "key": "shift+.",
-            "command": "workbench.action.nextEditor",
-            "when": "editorFocus"
-        },
-        {
-            "key": "ctrl+p",
-            "command": "workbench.action.quickOpen",
-            "when": "!editorIsOpen"
-        },
-        {
-            "key": "ctrl+p",
-            "command": "workbench.action.quickOpen",
-            "when": "editorIsOpen"
-        },
-        {
-            "command": "workbench.action.toggleSidebarVisibility",
-            "key": "shift+n"
-        },
-        {
-            "command": "workbench.files.action.focusFilesExplorer",
-            "key": "shift+n",
-            "when": "editorTextFocus"
-        },
-        {
-            "key": "a",
-            "command": "explorer.newFile",
-            "when": "filesExplorerFocus && !inputFocus"
-        },
-        {
-            "command": "renameFile",
-            "key": "r",
-            "when": "filesExplorerFocus && !inputFocus"
-        },
-        {
-            "key": "shift+a",
-            "command": "explorer.newFolder",
-            "when": "explorerViewletFocus"
-        },
-        {
-            "key": "shift+a",
-            "command": "workbench.action.newWindow",
-            "when": "!explorerViewletFocus"
-        },
-        {
-            "command": "deleteFile",
-            "key": "d",
-            "when": "filesExplorerFocus && !inputFocus"
-        },
-        {
-            "key": "alt+a",
-            "command": "keybindings.editor.recordSearchKeys",
-            "when": "inKeybindings && inKeybindingsSearch"
-        },
-        {
-            "key": "alt+k",
-            "command": "-keybindings.editor.recordSearchKeys",
-            "when": "inKeybindings && inKeybindingsSearch"
-        },
-        {
-            "key": "alt+q",
-            "command": "workbench.action.editor.changeEOL"
-        },
-        {
-            "key": "shift+alt+\\",
-            "command": "editor.action.insertCursorAtEndOfEachLineSelected",
-            "when": "editorTextFocus"
-        },
-        {
-            "key": "shift+alt+i",
-            "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
-            "when": "editorTextFocus"
-        },
-        {
-            "key": "alt+k",
-            "command": "cursorEnd",
-            "when": "textInputFocus"
-        },
-        {
-            "key": "end",
-            "command": "-cursorEnd",
-            "when": "textInputFocus"
-        }
-    ]
+[
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "filesExplorerFocus"
+    },
+]
