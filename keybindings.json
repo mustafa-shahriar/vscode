@@ -16,4 +16,9 @@
         "command": "workbench.action.toggleSidebarVisibility",
         "when": "filesExplorerFocus"
     },
+    {
+        "key": "ctrl+y",
+        "command": "acceptSelectedSuggestion",
+        "when": "suggestWidgetVisible"
+    },
 ]
